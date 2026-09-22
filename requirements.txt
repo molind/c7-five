@@ -1,0 +1,2 @@
+# Only the optional global-pair verifier needs NumPy. No solver is required.
+numpy>=2.0,<3

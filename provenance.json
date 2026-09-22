@@ -1,0 +1,121 @@
+[
+  {
+    "source": "shared_u1_replay.py",
+    "original_sha256": "2a662081f05d33dbbfbec38a817a6836afdccc66ada67beae84f0881f27c0640",
+    "export": "verify/u1.py",
+    "export_sha256": "a2493641d829307cee4d8503892882ba9484aa1930955f7e2deb2e340864b2d1",
+    "transformation": "Added explicit rejection of Python -O."
+  },
+  {
+    "source": "shared_u2_compact_replay.py",
+    "original_sha256": "15fa26072f7f2cc5e9fbe208113e0423149d8fd9949a5834fee5507934818d5d",
+    "export": "verify/u2.py",
+    "export_sha256": "15fa26072f7f2cc5e9fbe208113e0423149d8fd9949a5834fee5507934818d5d",
+    "transformation": "verbatim"
+  },
+  {
+    "source": "shared_u3_dual_replay.py",
+    "original_sha256": "f39a37ba09f9016e92232a99d7a762c233e6e9d5454c3573b0ada5c28ebb0d11",
+    "export": "verify/u3.py",
+    "export_sha256": "f39a37ba09f9016e92232a99d7a762c233e6e9d5454c3573b0ada5c28ebb0d11",
+    "transformation": "verbatim"
+  },
+  {
+    "source": "exchange_dfs.cpp",
+    "original_sha256": "d395afcad7413c0cd45728e37d19b6422daf7b9e4eb4c583f5c0500dd03a6ef9",
+    "export": "search/exchange_dfs.cpp",
+    "export_sha256": "200e7e9e87d03b9950a382f68928944932a2abe454f72f3ff61e899b59c44fb4",
+    "transformation": "Publication number removed from attribution comment; algorithm unchanged and contributor credit retained."
+  },
+  {
+    "source": "export_exchange_graph.py",
+    "original_sha256": "bc0fedd838af07e7ec902399d86d4abaa762287f59f7e649d25f7f00a8b0af2c",
+    "export": "search/export_exchange_graph.py",
+    "export_sha256": "bc0fedd838af07e7ec902399d86d4abaa762287f59f7e649d25f7f00a8b0af2c",
+    "transformation": "verbatim"
+  },
+  {
+    "source": "family-f-seed-words.txt",
+    "original_sha256": "4dcc761526114c08d58d2da75ba0336bca20095bdcdfc673053ba05505ad9296",
+    "export": "data/family-f-367.txt",
+    "export_sha256": "4dcc761526114c08d58d2da75ba0336bca20095bdcdfc673053ba05505ad9296",
+    "transformation": "verbatim"
+  },
+  {
+    "source": "direct-maximal366-walks-sep21-component-3.jsonl.gz",
+    "original_sha256": "cc08d8e6df92a5a42fbf1970554078987b2f1b0857c45e27d6a7e80a34756023",
+    "export": "data/family-f.json",
+    "export_sha256": "69c83bd2a9f29caca7af32f9c656f855200bfdbb671bf4201e16bfc9abf373c8",
+    "transformation": "Exported all 36 states; added core and pool from family-f-fixed-core-sep21.json."
+  },
+  {
+    "source": "family-f-fixed-core-sep21.json",
+    "original_sha256": "08ad128de6ad52a3f702a280eba1db5ff5634251c1f87f269072d9c48f3ce266",
+    "export": "data/family-f.json",
+    "export_sha256": "69c83bd2a9f29caca7af32f9c656f855200bfdbb671bf4201e16bfc9abf373c8",
+    "transformation": "Exported core and pool only; checker reconstructs them."
+  },
+  {
+    "source": "global-pair-target368-rational-sep22.json",
+    "original_sha256": "75c2dcfaf2edd7d4ab20ac6e37854b1204b2626a1b7b71ef0a984be0ffab624f",
+    "export": "data/global-pair-368.json",
+    "export_sha256": "7f97aac07c70d6d2d2d605de2ef2fbe8280a91b1bc3a9af24d84a57fc2f2fc11",
+    "transformation": "Removed discovery provenance fields; all mathematical fields unchanged."
+  },
+  {
+    "source": "check_global_pair_feasibility.py",
+    "original_sha256": "f6e87730043cb442a56d64be9ce58907633448cd9dcde473e4c38a88b35d4cfd",
+    "export": "verify/global_pair.py",
+    "export_sha256": "20d179c62867b5ecda59dc9241590015eac8e9ee03efa49c181b1a84485b53d8",
+    "transformation": "Removed discovery-input hash checks only. Mathematical verification unchanged. Added explicit rejection of Python -O before argument parsing."
+  },
+  {
+    "source": "CF-common312-covers-sep22.json",
+    "original_sha256": "b74a10707b033bcbbf35c9eb6b18173d77a8a3f593c3c5b7a974649ca67efedf",
+    "export": "data/core-overlap.json.gz",
+    "export_sha256": "4750b7c609fa96f919b79df5c56dd6cb2bf7e2505739e6d0b9cf8aff7f8586e6",
+    "transformation": "Selected mathematical fields; joined into one certificate, no recomputation."
+  },
+  {
+    "source": "CF-common313-covers-sep22.json",
+    "original_sha256": "45265ec739cb8bd91f028c615f970ec7615457266829b5878dbac5e9ac06c519",
+    "export": "data/core-overlap.json.gz",
+    "export_sha256": "4750b7c609fa96f919b79df5c56dd6cb2bf7e2505739e6d0b9cf8aff7f8586e6",
+    "transformation": "Selected mathematical fields; joined into one certificate, no recomputation."
+  },
+  {
+    "source": "CF-common314-covers-sep22.json",
+    "original_sha256": "8b031127644d29d74e9cba29e4e781bcc9478210f38e0a913768fb55de84f1fe",
+    "export": "data/core-overlap.json.gz",
+    "export_sha256": "4750b7c609fa96f919b79df5c56dd6cb2bf7e2505739e6d0b9cf8aff7f8586e6",
+    "transformation": "Selected mathematical fields; joined into one certificate, no recomputation."
+  },
+  {
+    "source": "CF-common315-cover-sep22.json",
+    "original_sha256": "4758a5014815d407e2dfb05956e3173f43685f6ef48f84b6c809d3f3b9c62255",
+    "export": "data/core-overlap.json.gz",
+    "export_sha256": "4750b7c609fa96f919b79df5c56dd6cb2bf7e2505739e6d0b9cf8aff7f8586e6",
+    "transformation": "Selected mathematical fields; joined into one certificate, no recomputation."
+  },
+  {
+    "source": "cardinality367-trade-starts-sep21.json",
+    "original_sha256": "234e5f328c96844c23b2a282bc589746f37c31863fea1eab92ebef4024c12dab",
+    "export": "data/core-overlap.json.gz",
+    "export_sha256": "4750b7c609fa96f919b79df5c56dd6cb2bf7e2505739e6d0b9cf8aff7f8586e6",
+    "transformation": "Selected mathematical fields; joined into one certificate, no recomputation."
+  },
+  {
+    "source": "check_common312_covers.py",
+    "original_sha256": "088cb911d9ab45e9f9f9c3040616bf856ef1a0d1d1fb01d9471cb45b80ef251f",
+    "export": "verify/core_overlap.py",
+    "export_sha256": "b43525e836416744af7daea3250bfa582f2c5d7ac5dbbcd0bc6357e6b20af78e",
+    "transformation": "Portable joined input and inline arithmetic helpers; strengthened parent validation. Portable checker also validates integer range of all witness words."
+  },
+  {
+    "source": "check_common313_covers.py",
+    "original_sha256": "3f67fdb7a611de08d6778e759730c3bbd918655ae048a166d5c949ed4f295301",
+    "export": "verify/core_overlap.py",
+    "export_sha256": "b43525e836416744af7daea3250bfa582f2c5d7ac5dbbcd0bc6357e6b20af78e",
+    "transformation": "Inlined box_words and verify_cover, unchanged. Portable checker also validates integer range of all witness words."
+  }
+]

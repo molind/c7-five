@@ -1,0 +1,36 @@
+python3 verify/u1.py
+Verified: 896 vertices covered by 367 cliques; independent witness 367.
+Therefore alpha(U1) = 367, with the fixed 308-word core used to define U1.
+python3 verify/u2.py
+2217 U2 vertices;1026 boxes;weight367999845/1000000<368.
+Independent witness367; therefore alpha(U2)=367.
+python3 verify/u3.py
+U3=4859;2569 weighted vertices;max box load=64/64;total=23696/64=370.25.
+Every nonnegative clique cover of U3 has weight>=370.25; none has weight<368.
+This fractional witness is NOT an independent set of 368 or 370 vertices.
+python3 verify/family_f.py
+{
+  "passed": true,
+  "states": 36,
+  "witness_pair_checks": 2417796,
+  "directed_exchanges": 150,
+  "core": 360,
+  "union": 374,
+  "free_domain": 14,
+  "subsets_checked": 16384,
+  "free_optimum": 7,
+  "fixed_core_optimum": 367,
+  "scope": "The exact fixed core and this one-for-one component; no global bound."
+}
+python3 verify/core_overlap.py
+{
+  "passed": true,
+  "cases": 5159805,
+  "implicit": 5136228,
+  "explicit_extensions": 19339,
+  "lp_covers": 4238,
+  "maximum_total_units": 55000049,
+  "denominator": 1000000,
+  "witness_pair_checks": 67161,
+  "minimum_core_omissions_for368": 4
+}

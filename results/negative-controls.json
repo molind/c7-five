@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "controls": [
+    "core_zero_cover_weight",
+    "core_missing_pair",
+    "core_missing_triple",
+    "family_missing_state",
+    "family_out_of_range_word",
+    "pair_wrong_target",
+    "pair_wrong_mass"
+  ]
+}

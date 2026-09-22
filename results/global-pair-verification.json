@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "exact_objective": 368,
+  "word_values": 16807,
+  "anchored_pair_checks": 941192,
+  "translated_cylinder_checks": 19607,
+  "spectral_classes": 56,
+  "covered_characters": 16807,
+  "minimum_eigenvalue_lower": "3866454597598572583180679665672676775294625177463163581727/45671926166590716193865151022383844364247891968000000000000",
+  "minimum_eigenvalue_lower_approx": 0.08465713890619544,
+  "scope": "These pair, Fourier, triangle and cylinder constraints admit target368. This is not an independent368-word set and proves no lower bound on alpha.",
+  "checker_sha256": "20d179c62867b5ecda59dc9241590015eac8e9ee03efa49c181b1a84485b53d8",
+  "dependencies": {
+    "data/global-pair-368.json": "7f97aac07c70d6d2d2d605de2ef2fbe8280a91b1bc3a9af24d84a57fc2f2fc11"
+  }
+}

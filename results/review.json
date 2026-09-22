@@ -1,0 +1,38 @@
+{
+  "date": "2026-09-22",
+  "skill": "guru-code-review",
+  "status": "passed_with_documented_archival_limitations",
+  "findings_fixed": [
+    "Added an explicit Python -O guard to the portable U1 checker.",
+    "Added integer-range validation for the core-overlap witness.",
+    "Separated portable exact checks from historical path-bound proof chains.",
+    "Replaced assert __debug__ with an explicit -O rejection in the portable global checker; assertions disappear under -O.",
+    "Separated dissemination workflow from the research repository; retained contributor attribution."
+  ],
+  "checks": {
+    "stdlib_replays": 5,
+    "optional_exact_numpy_replay": true,
+    "negative_controls_rejected": 7,
+    "cpp_smoke": "Compiled C++17; actual exporter and radius-two traversal exhausted 1406 nodes.",
+    "archive_sources": 660,
+    "archive_records": 264,
+    "local_markdown_links": true,
+    "credential_and_private_path_marker_scan": true,
+    "optimized_python_rejected": 7,
+    "publication_cleanup": {
+      "changed_sources": 25,
+      "source_digests_verified": 660,
+      "platform_reference_scan": "passed"
+    }
+  },
+  "limits": [
+    "No 368 construction and no global exclusion.",
+    "Historical F9 exhaustion is tested computation, not a formal proof-tree replay.",
+    "Historical records are not a complete turnkey portable proof chain.",
+    "No whole-archive claim of source correctness; maintained portable entry points and packaging were reviewed."
+  ],
+  "runtime": {
+    "stdlib_python": "3.14.7"
+  },
+  "publication": "Repository snapshot reviewed; the owner explicitly authorized commit and push."
+}
